@@ -48,4 +48,4 @@ __help__ = """
 /jackpot - Spin slot machine 🎰
  """
 
-__mod_name__ = "Dɪᴄᴇ"
+__mod_name__ = "Dᴇᴠɪʟ"
