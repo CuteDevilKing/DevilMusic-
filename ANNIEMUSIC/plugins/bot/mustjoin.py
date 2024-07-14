@@ -6,7 +6,7 @@ from ANNIEMUSIC import app
 
 #--------------------------
 
-MUST_JOIN = "JARVIS_V_SUPPORT"
+MUST_JOIN = "https://t.me/+crSKsZlbdRk3OTg1"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
