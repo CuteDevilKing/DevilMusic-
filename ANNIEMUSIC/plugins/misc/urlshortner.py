@@ -85,4 +85,4 @@ __help__ = """
  ❍ /short <url>  *:Example `/short https://t.me/JARVIS_V2`.
  *"""
 
-__mod_name__ = "Sʜᴏʀᴛᴇɴᴇʀ"
+__mod_name__ = "Dᴇᴠɪʟ"
