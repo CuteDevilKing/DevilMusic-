@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Specify where to get the following credentials
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Fan_Boy1_23)
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Devil_Fan_Boy)
 BOT_USERNAME = getenv("BOT_USERNAME", "NottyFanBoyBot)
 BOT_NAME = getenv("BOT_NAME", "❍⏤͟͞●𝐍❍ʈʈ𝐘༎꯭ࠫ𓆩 ⃝⃪⃕𝐅𝙰ɳ𝗕๏‌𝕪❜𝆺꯭𝅥𝆺꯭𝅥༎ࠫ,")
 ASSUSERNAME = getenv("ASSUSERNAME", "Devil_Fan_Boy)
