@@ -4,7 +4,7 @@ from ANNIEMUSIC import YouTube, app
 from ANNIEMUSIC.utils.channelplay import get_channeplayCB
 from ANNIEMUSIC.utils.decorators.language import languageCB
 from ANNIEMUSIC.utils.stream.stream import stream
-from config import BANNED_USERS, AYU
+from config import BANNED_USERS, DEVIL
 
 
 @app.on_callback_query(filters.regex("LiveStream") & ~BANNED_USERS)
