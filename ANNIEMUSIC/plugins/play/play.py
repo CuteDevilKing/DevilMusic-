@@ -7,7 +7,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 from ANNIEMUSIC.utils.database import get_assistant
 import config
 from ANNIEMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from ANNIEMUSIC.core.call import JARVIS
+from ANNIEMUSIC.core.call import DEVIL
 from ANNIEMUSIC.utils import seconds_to_min, time_to_seconds
 from ANNIEMUSIC.utils.channelplay import get_channeplayCB
 from ANNIEMUSIC.utils.decorators.language import languageCB
@@ -30,7 +30,7 @@ from ANNIEMUSIC.utils.database import (
 )
 from ANNIEMUSIC.utils.logger import play_logs
 from ANNIEMUSIC.utils.stream.stream import stream
-from config import BANNED_USERS, lyrical, AYU
+from config import BANNED_USERS, lyrical, DEVIL
 
 
 @app.on_message(
@@ -537,7 +537,7 @@ async def Anonymous_check(client, CallbackQuery):
         pass
 
 
-@app.on_callback_query(filters.regex("JARVISPlaylists") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("DEVILPlaylists") & ~BANNED_USERS)
 @languageCB
 async def play_playlists_command(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
