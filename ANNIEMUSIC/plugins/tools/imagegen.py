@@ -21,7 +21,7 @@ async def imagine_(b, message: Message):
         caption = f"""
     💘sᴜᴄᴇssғᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ : {text}
 
-    ✨ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ : @CuteDevil_Music_bot
+    ✨ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ : @NottyFanBoyBot
     🥀ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}
     """
         await Jarvis.delete()
