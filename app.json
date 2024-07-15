@@ -1,12 +1,12 @@
 {
-    "name": "ANNIE X MUSIC",
-    "description": "ANNIE X MUSIC is a Telegram Music Player Bot built using Python, leveraging Pyrogram and Py-Tgcalls for seamless music streaming.",
-    "logo": "https://telegra.ph/file/2c6d1a6f78eba6199933a.jpg",
+    "name": "DEVILMUSIC",
+    "description": "DEVILMUSIC is a Telegram Music Player Bot built using Python, leveraging Pyrogram and Py-Tgcalls for seamless music streaming.",
+    "logo": "https://telegra.ph/file/6d39fad4925de55b86e96.jpg",
     "keywords": [
         "python3",
         "telegram",
         "bot",
-        "Jarvis",
+        "Devil",
         "MusicBot",
         "telegram-bot",
         "pyrogram"
@@ -14,12 +14,12 @@
     "env": {
         "API_ID": {
             "description": "Retrieve this value from https://my.telegram.org.",
-            "value": "",
+            "value": "29926087",
             "required": true
         },
         "API_HASH": {
             "description": "Retrieve this value from https://my.telegram.org.",
-            "value": "",
+            "value": "7457943c1a3c600c19d2d89f43a65d8a",
             "required": true
         },
         "BOT_TOKEN": {
@@ -45,12 +45,12 @@
         "HEROKU_API_KEY": {
             "description": "Your Heroku account's API key.",
             "value": "",
-            "required": false
+            "required": true
         },
         "HEROKU_APP_NAME": {
             "description": "The name of your Heroku app.",
             "value": "",
-            "required": false
+            "required": true
         },
         "LOGGER_ID": {
             "description": "Your Log Group ID. Add your bot and promote it to admin with full rights.",
