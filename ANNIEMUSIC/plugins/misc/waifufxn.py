@@ -1,9 +1,9 @@
 from pyrogram import Client, filters
 import requests
 from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.showbin import Ava
+from ANNIEMUSIC.utils.showbin import DEVIL
 
-Annie = Ava
+Decil = DEVIL
 
 # Function to retrieve animation URL from the API
 def get_animation(api_token, animation_type):
