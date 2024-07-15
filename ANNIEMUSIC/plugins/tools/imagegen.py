@@ -21,13 +21,13 @@ async def imagine_(b, message: Message):
         caption = f"""
     💘sᴜᴄᴇssғᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ : {text}
 
-    ✨ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ : @Annie_Music_Robot
+    ✨ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ : @CuteDevil_Music_bot
     🥀ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}
     """
         await Jarvis.delete()
         await message.reply_photo("mukesh.jpg",caption=caption,quote=True)
     except Exception as e:
-        await Jarvis.edit_text(f"error {e}")
+        await DEVIL.edit_text(f"error {e}")
     
 
 __mod_name__ = "Aɪ ɪᴍᴀɢᴇ"
