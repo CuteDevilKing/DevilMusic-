@@ -12,10 +12,10 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Specify where to get the following credentials
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Devil_Fan_Boy)
-BOT_USERNAME = getenv("BOT_USERNAME", "NottyFanBoyBot)
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Devil_Fan_Boy")
+BOT_USERNAME = getenv("BOT_USERNAME", "NottyFanBoyBot")
 BOT_NAME = getenv("BOT_NAME", "❍⏤͟͞●𝐍❍ʈʈ𝐘༎꯭ࠫ𓆩 ⃝⃪⃕𝐅𝙰ɳ𝗕๏‌𝕪❜𝆺꯭𝅥𝆺꯭𝅥༎ࠫ,")
-ASSUSERNAME = getenv("ASSUSERNAME", "Devil_Fan_Boy)
+ASSUSERNAME = getenv("ASSUSERNAME", "Devil_Fan_Boy")
 EVALOP = list(map(int, getenv("EVALOP", "6507443481").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOGGER_ID = int(getenv("LOGGER_ID", -1002133444856))
