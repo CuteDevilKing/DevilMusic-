@@ -52,6 +52,6 @@ async def address(_, message):
             else:
                 await message.reply_text("ғᴀɪʟᴇᴅ ᴛᴏ ʀᴇᴛʀɪᴇᴠᴇ ᴅᴀᴛᴀ ғʀᴏᴍ ᴛʜᴇ API.")
         else:
-            await message.reply_text(f"ɪɴᴠᴀʟɪᴅ ᴄᴏᴜɴᴛʀʏ ᴄᴏᴅᴇ. ᴘʟᴇᴀsᴇ ᴜsᴇ ᴏɴᴇ ᴏғ ᴛʜᴇ ғᴏʟʟᴏᴡɪɴɢ: {', '.join(https://t.me/+QBOAR7PV1aJkOGU1)}")
+            await message.reply_text(f"ɪɴᴠᴀʟɪᴅ ᴄᴏᴜɴᴛʀʏ ᴄᴏᴅᴇ. ᴘʟᴇᴀsᴇ ᴜsᴇ ᴏɴᴇ ᴏғ ᴛʜᴇ ғᴏʟʟᴏᴡɪɴɢ: {', '.join(VALID_COUNTRY_CODES)}")
     else:
         await message.reply_text("ᴘʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴀ ᴄᴏᴜɴᴛʀʏ ᴄᴏᴅᴇ.")
