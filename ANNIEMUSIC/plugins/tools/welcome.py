@@ -17,7 +17,7 @@ from pyrogram.enums import ParseMode
 from pyrogram import *
 from pyrogram.types import *
 from logging import getLogger
-from ANNIEMUSIC.utils.jarvis_ban import admin_filter
+from ANNIEMUSIC.utils.devil_ban import admin_filter
 from PIL import ImageChops
 
 LOGGER = getLogger(__name__)
