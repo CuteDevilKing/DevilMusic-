@@ -6,9 +6,9 @@ import config
 from ..logging import LOGGER
 
 
-class JARVIS(Client):
+class DEVIL(Client):
     def __init__(self):
-        LOGGER(__name__).info(f"DEVIL is on the way...")
+        LOGGER(__name__).info(f"Devil is on the way...")
         super().__init__(
             name="❍⏤͟͞●𝐍❍ʈʈ𝐘༎꯭ࠫ𓆩 ⃝⃪⃕𝐅𝙰ɳ𝗕๏‌𝕪❜𝆺꯭𝅥𝆺꯭𝅥༎ࠫ,",
             api_id=config.API_ID,
