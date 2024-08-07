@@ -16,11 +16,11 @@
 
 from typing import Dict, Union
 
-from motor.motor_asyncio import AsyncIOMotorClient as MongoCli
+from motor.motor_asyncio import AsyncIOMotorClient as DEVIL
 
 from config import MONGO_DB_URI
 
-mongo = MongoCli(MONGO_DB_URI)
+mongo = DEVIL(MONGO_DB_URI)
 db = mongo.ANNIEMUSIC
 
 coupledb = db.couple
