@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from ANNIEMUSIC import app
-from ANNIEMUSIC.core.call import JARVIS
+from ANNIEMUSIC.core.call import DEVIL
 from ANNIEMUSIC.misc import SUDOERS, db
 from ANNIEMUSIC.utils import AdminRightsCheck
 from ANNIEMUSIC.utils.database import is_active_chat, is_nonadmin_chat
@@ -85,7 +85,7 @@ async def del_back_playlist(client, CallbackQuery, _):
         text=_["admin_32"].format(callback_query.from_user.mention),
     )
     try:
-        await JARVIS.speedup_stream(
+        await DEVIL.speedup_stream(
             chat_id,
             file_path,
             speed,
