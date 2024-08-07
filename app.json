@@ -1,6 +1,6 @@
 {
     "name": "DEVILMUSIC",
-    "description": "DEVILMUSIC is a Telegram Music Player Bot built using Python, leveraging Pyrogram and Py-Tgcalls for seamless music streaming.",
+    "description": "A Telegram Music Player Bot built using Python, leveraging Pyrogram and Py-Tgcalls for seamless music streaming.",
     "logo": "https://telegra.ph/file/6d39fad4925de55b86e96.jpg",
     "keywords": [
         "python3",
