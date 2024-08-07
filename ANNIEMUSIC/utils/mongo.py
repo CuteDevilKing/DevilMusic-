@@ -14,9 +14,8 @@
 
 
 
-from typing import DEVIL, Devil
-
-from motor.motor_asyncio import AsyncIOMotorClient as DEVIL
+from ANNIEMUSIC.utils.mongo import devil
+from motor.motor_asyncio import AsyncIOMotorClient as mongocli
 
 from config import MONGO_DB_URI
 
