@@ -4,7 +4,7 @@ from pyrogram.enums import ChatMemberStatus
 from ANNIEMUSIC import app
 from ANNIEMUSIC.misc import SUDOERS
 from ANNIEMUSIC.utils.database import get_assistant
-from ANNIEMUSIC.utils.jarvis_ban import admin_filter
+from ANNIEMUSIC.utils.devil_ban import admin_filter
 
 async def join_userbot(app, chat_id, username=None, invite_link=None):
     userbot = await get_assistant(chat_id)
