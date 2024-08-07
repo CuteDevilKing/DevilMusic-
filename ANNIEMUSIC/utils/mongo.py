@@ -14,7 +14,7 @@
 
 
 
-from typing import Dict, Devil
+from typing import DEVIL, Devil
 
 from motor.motor_asyncio import AsyncIOMotorClient as DEVIL
 
