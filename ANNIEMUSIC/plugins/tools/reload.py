@@ -14,7 +14,7 @@ from pyrogram import filters
 load_dotenv()
 
 from ANNIEMUSIC import app
-from ANNIEMUSIC.core.call import JARVIS
+from ANNIEMUSIC.core.call import DEVIL
 from ANNIEMUSIC.misc import db
 from ANNIEMUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
 from ANNIEMUSIC.utils.decorators import ActualAdminCB, AdminActual, language
@@ -94,7 +94,7 @@ async def restartbot(client, message: Message, _):
             pass
         try:
             db[chat_id] = []
-            await JARVIS.stop_stream_force(chat_id)
+            await DEVIL.stop_stream_force(chat_id)
         except:
             pass
     return await mystic.edit_text(_["reload_5"].format(app.mention))
