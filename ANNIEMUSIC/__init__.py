@@ -1,4 +1,4 @@
-from ANNIEMUSIC.core.bot import JARVIS
+from ANNIEMUSIC.core.bot import DEVIL
 from ANNIEMUSIC.core.dir import dirr
 from ANNIEMUSIC.core.git import git
 from ANNIEMUSIC.core.userbot import Userbot
@@ -12,7 +12,7 @@ git()
 dbb()
 heroku()
 
-app = JARVIS()
+app = DEVIL()
 api = SafoneAPI()
 userbot = Userbot()
 
