@@ -1,4 +1,4 @@
-name: DEVILMUSIC
+name: ANNIEMUSIC
 type: app
 docker:
   file: Dockerfile
