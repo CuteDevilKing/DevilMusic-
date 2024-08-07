@@ -4,7 +4,7 @@ from ANNIEMUSIC import app, userbot
 from ANNIEMUSIC.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from ANNIEMUSIC.utils.jarvis_ban import admin_filter
+from ANNIEMUSIC.utils.devil_ban import admin_filter
 
 
 
